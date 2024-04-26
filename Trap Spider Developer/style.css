@@ -1,0 +1,22 @@
+
+.ani{
+ 
+    display:inline;
+    float: right;
+}
+
+img{
+    width: 80px;
+    
+}
+ 
+.ima{
+    text-align: center;
+    padding: 0%;
+}
+ .Alto{
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to right,Tomato, red, FireBrick);   
+    border-radius: 25px;
+}
