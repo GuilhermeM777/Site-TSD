@@ -50,7 +50,7 @@ header nav ul li a:hover {
 }
 
 #hero {
-    background: url('hero.jpg') no-repeat center center/cover;
+    background: url('image.png') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -87,7 +87,7 @@ header nav ul li a:hover {
 }
 
 #hero .btn {
-    background: #e8491d;
+    background: #860000;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
