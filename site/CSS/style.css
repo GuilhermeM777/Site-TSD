@@ -2,55 +2,68 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #330169;
     color: #333;
 }
 
+header .logo {
+    display:inline;
+    margin: 0px 750px 0px 0px;
+}
+
 header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #360451;
+    color: #be0000;
+    padding: 0px 0px;
+    margin: 0px;
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 0px;
     z-index: 1000;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration-line: underline;
+        color: darkred;
+        margin: 0px 1px;
+    }
 
 header h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 28px;
+    align-self:initial;
 }
 
 header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    list-style: circle;
+    margin: 0px 10px;
+    padding: 0px;
     display: flex;
+    color: darkred;
 }
 
-header nav ul li {
-    margin: 0 15px;
-}
+ header nav ul li {
+        margin: 0 15px;
+        color: red;
+        font-size:25px;
+ }
 
 header nav ul li a {
-    color: #fff;
+    color: red;
     text-decoration: none;
     font-weight: 700;
     transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-    color: #ddd;
+    color: red;
 }
 
 #hero {
-    background: url('image.png') no-repeat center center/cover;
+    background: url('img/Bar.png') no-repeat center;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -79,24 +92,26 @@ header nav ul li a:hover {
 #hero h2 {
     font-size: 48px;
     margin: 0;
+    color: red;
 }
 
-#hero p {
-    font-size: 24px;
-    margin: 20px 0;
-}
+  #hero p {
+        font-size: 24px;
+        margin: 20px 0;
+        color: red;
+ }
 
-#hero .btn {
-    background: #860000;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
+    #hero .btn {
+        background: red;
+        color: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
 
 #hero .btn:hover {
-    background: #c73713;
+    background: darkred;
 }
 
 .container {
@@ -110,27 +125,36 @@ section {
 }
 
 #about, #contact {
-    background: #fff;
+    background: #6509a4;
     margin: 20px 0;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: red;
 }
 
 #games .gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
+    color:red;
+    align-items:center;
 }
 
 #games .game {
-    background: #fff;
+    background: #6509a4;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     flex-basis: 30%;
     text-align: center;
+    color:darkgoldenrod;
+}
+
+#games {
+    color:red;
+    align-self:center;
 }
 
 #games .game img {
@@ -141,7 +165,9 @@ section {
 #games .game h3 {
     margin: 15px 0;
     font-size: 20px;
+    color: goldenrod;
 }
+
 
 form {
     display: flex;
@@ -153,29 +179,31 @@ form label {
     font-weight: 700;
 }
 
-form input, form textarea, form button {
-    padding: 10px;
-    margin: 5px 0 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
+    form input, form textarea, form button {
+        padding: 10px;
+        margin: 5px 0 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: red;
+        background-color: #330169;
+    }
 
 form button {
-    background: #333;
-    color: #fff;
+    background: red;
+    color: black;
     border: none;
     cursor: pointer;
     transition: background 0.3s;
 }
 
 form button:hover {
-    background: #555;
+    background: darkred;
 }
 
 footer {
-    background-color: #222;
-    color: #fff;
+    background-color: #360451;
+    color: red;
     text-align: center;
     padding: 20px 0;
     position: relative;
@@ -199,12 +227,12 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-    color: #fff;
+    color: red;
     text-decoration: none;
     font-weight: 700;
     transition: color 0.3s;
 }
 
 footer nav ul li a:hover {
-    color: #ddd;
+    color: darkred;
 }
