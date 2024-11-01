@@ -38,7 +38,6 @@ header h1 {
 }
 
 header nav ul {
-    list-style: circle;
     margin: 0px 10px;
     padding: 0px;
     display: flex;
@@ -63,7 +62,8 @@ header nav ul li a:hover {
 }
 
 #hero {
-    background: url('img/Bar.png') no-repeat center;
+    background-image: url(img/FundoSite.png);
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -71,6 +71,47 @@ header nav ul li a:hover {
     text-align: center;
     color: #fff;
     position: relative;
+}
+#historia {
+    background-image: url(img/FundoSite.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    position: relative;
+
+}
+
+#historia::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+#historia .container {
+    position: relative;
+    z-index: 1;
+}
+
+#historia h2{
+    font-size: 48px;
+    margin: 0;
+    color: red;
+
+}
+
+#historia p {
+    font-size: 24px;
+    margin: 20px 0;
+    color: red;
 }
 
 #hero .container {
@@ -87,6 +128,7 @@ header nav ul li a:hover {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 0;
+
 }
 
 #hero h2 {
@@ -124,13 +166,58 @@ section {
     padding: 60px 0;
 }
 
-#about, #contact {
-    background: #6509a4;
-    margin: 20px 0;
+#about, #Missao, #Visao {
+    background: #44097c;
+    margin: 20px 100px;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+#contact {
+    background: #44097c;
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: red;
+    font-size: 20px;
+}
+
+#Valores {
+    background: #44097c;
+    margin: 20px 100px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: red;
+    font-size: 30px;
+    text-align:center;
+}
+
+#Valores ul li {
+    list-style-type:none;
+    text-decoration:underline dashed;
+
+}
+
+#contact  h2 {
+   font-size: 35px;
+}
+
+#Missao  h2 {
+   font-size: 35px;
+}
+
+#Visao  h2 {
+   font-size: 35px;
+}
+
+#Valores  h2 {
+   font-size: 45px;
 }
 
 #games .gallery {
@@ -155,6 +242,7 @@ section {
 #games {
     color:red;
     align-self:center;
+    text-align: center;
 }
 
 #games .game img {
