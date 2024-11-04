@@ -2,7 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #330169;
+    background-image: url(img/FundoClaro.png);
+    background-size: 200px 200px;
     color: #333;
 }
 
@@ -12,7 +13,9 @@ header .logo {
 }
 
 header {
-    background-color: #360451;
+    background-image: url(img/FundoEscuro.png);
+    background-size:300px 200px;
+    background-position:center;
     color: #be0000;
     padding: 0px 0px;
     margin: 0px;
@@ -62,8 +65,9 @@ header nav ul li a:hover {
 }
 
 #hero {
-    background-image: url(img/FundoSite.png);
+    background-image: url(img/SalaRaio.png);
     background-repeat: no-repeat;
+    background-position:center;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -73,8 +77,9 @@ header nav ul li a:hover {
     position: relative;
 }
 #historia {
-    background-image: url(img/FundoSite.png);
+    background-image: url(img/FundoHistoria.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -230,18 +235,18 @@ section {
 }
 
 #games .game {
-    background: #6509a4;
+    background: #3f0873;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     flex-basis: 30%;
     text-align: center;
-    color:darkgoldenrod;
+    color: darkgoldenrod;
 }
 
 #games {
     color:red;
-    align-self:center;
+    align-self:flex-start;
     text-align: center;
 }
 
@@ -255,6 +260,83 @@ section {
     font-size: 20px;
     color: goldenrod;
 }
+
+#games h2 {
+    margin: 15px 0;
+    font-size: 40px;
+    color:red;
+    background-color: #44097c;
+}
+
+#games .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    color:red;
+    align-items:center;
+}
+
+#games .game {
+    background: #3f0873;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex-basis: 30%;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+#integrantes {
+    color:red;
+    align-self:flex-start;
+    text-align: center;
+}
+
+#integrantes .dev img {
+    width: 100%;
+    height: auto;
+}
+
+#integrantes .dev h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: red;
+}
+
+#integrantes .dev h2 {
+    margin: 15px 0;
+    font-size: 30px;
+    color: red;
+}
+
+#integrantes h2 {
+    margin: 15px 0;
+    font-size: 40px;
+    color:red;
+    background-color: #44097c;
+}
+
+#integrantes .Fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    color: red;
+    align-items: center;
+}
+
+#integrantes .dev {
+    background: #3f0873;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex-basis: 30%;
+    text-align: center;
+    color: red;
+}
+
+
 
 
 form {
@@ -290,7 +372,9 @@ form button:hover {
 }
 
 footer {
-    background-color: #360451;
+    background-image: url(img/FundoEscuro.png);
+    background-size: 200px 200px;
+    background-position: center;
     color: red;
     text-align: center;
     padding: 20px 0;
@@ -312,15 +396,6 @@ footer nav ul {
 
 footer nav ul li {
     margin: 0 15px;
+    background: #3f0873;
 }
 
-footer nav ul li a {
-    color: red;
-    text-decoration: none;
-    font-weight: 700;
-    transition: color 0.3s;
-}
-
-footer nav ul li a:hover {
-    color: darkred;
-}
