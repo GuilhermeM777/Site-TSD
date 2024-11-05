@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(img/FundoClaro.png);
-    background-size: 200px 200px;
+    background-size: 100px 100px;
     color: #333;
 }
 
@@ -14,7 +14,7 @@ header .logo {
 
 header {
     background-image: url(img/FundoEscuro.png);
-    background-size:300px 200px;
+    background-size:100px 100px;
     background-position:center;
     color: #be0000;
     padding: 0px 0px;
@@ -84,8 +84,8 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    color: red;
+    text-align: justify;
+    color: purple;
     position: relative;
 
 }
@@ -109,14 +109,14 @@ header nav ul li a:hover {
 #historia h2{
     font-size: 48px;
     margin: 0;
-    color: red;
+    color:whitesmoke;
 
 }
 
 #historia p {
     font-size: 24px;
     margin: 20px 0;
-    color: red;
+    color: white;
 }
 
 #hero .container {
@@ -172,7 +172,8 @@ section {
 }
 
 #about, #Missao, #Visao {
-    background: #44097c;
+    background-image: url(img/FundoEscuro.png);
+    background-size: 30px 30px;
     margin: 20px 100px;
     border-radius: 5px;
     padding: 20px;
@@ -183,7 +184,8 @@ section {
 }
 
 #contact {
-    background: #44097c;
+    background-image: url(img/FundoEscuro.png);
+    background-size: 30px 30px;
     margin: 20px 0px;
     border-radius: 5px;
     padding: 20px;
@@ -193,14 +195,15 @@ section {
 }
 
 #Valores {
-    background: #44097c;
+    background-image: url(img/FundoEscuro.png);
+    background-size: 30px 30px;
     margin: 20px 100px;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     color: red;
     font-size: 30px;
-    text-align:center;
+    text-align: center;
 }
 
 #Valores ul li {
@@ -265,7 +268,8 @@ section {
     margin: 15px 0;
     font-size: 40px;
     color:red;
-    background-color: #44097c;
+    background-image: url(img/FundoEscuro.png);
+    background-size: 50px 50px;
 }
 
 #games .gallery {
@@ -278,7 +282,8 @@ section {
 }
 
 #games .game {
-    background: #3f0873;
+    background-image: url(img/FundoEscuro.png);
+    background-size: 30px 30px;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -289,7 +294,6 @@ section {
 
 #integrantes {
     color:red;
-    align-self:flex-start;
     text-align: center;
 }
 
@@ -314,11 +318,12 @@ section {
     margin: 15px 0;
     font-size: 40px;
     color:red;
-    background-color: #44097c;
+    background-image: url(img/FundoEscuro.png);
+    background-size: 50px 50px;
 }
 
 #integrantes .Fotos {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
@@ -327,7 +332,8 @@ section {
 }
 
 #integrantes .dev {
-    background: #3f0873;
+    background-image: url(img/FundoEscuro.png);
+    background-size: 30px 30px;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -373,7 +379,7 @@ form button:hover {
 
 footer {
     background-image: url(img/FundoEscuro.png);
-    background-size: 200px 200px;
+    background-size: 100px 100px;
     background-position: center;
     color: red;
     text-align: center;
@@ -396,6 +402,5 @@ footer nav ul {
 
 footer nav ul li {
     margin: 0 15px;
-    background: #3f0873;
 }
 
