@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(img/FundoClaro.png);
-    background-size: 100px 100px;
+    background-size: 50px 50px;
     color: #333;
 }
 
@@ -13,9 +13,7 @@ header .logo {
 }
 
 header {
-    background-image: url(img/FundoEscuro.png);
-    background-size:100px 100px;
-    background-position:center;
+    background-color: #4B0082;	
     color: #be0000;
     padding: 0px 0px;
     margin: 0px;
@@ -186,12 +184,15 @@ section {
 #contact {
     background-image: url(img/FundoEscuro.png);
     background-size: 30px 30px;
-    margin: 20px 0px;
+    margin: 20px 500px;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     color: red;
     font-size: 20px;
+    align-self:center;
+    align-content:center;
+    align-items:center;
 }
 
 #Valores {
@@ -384,13 +385,11 @@ footer {
     color: red;
     text-align: center;
     padding: 20px 0;
-    position: relative;
+    position: center;
 }
 
 footer .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 footer nav ul {
