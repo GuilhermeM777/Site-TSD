@@ -7,6 +7,11 @@ body {
     color: #333;
 }
 
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
 header .logo {
     display:inline;
     margin: 0px 750px 0px 0px;
@@ -28,34 +33,36 @@ header {
         justify-content: space-between;
         align-items: center;
         text-decoration-line: underline;
-        color: darkred;
+        color: whitesmoke;
         margin: 0px 1px;
     }
 
 header h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 48px;
     align-self:initial;
 }
 
 header nav ul {
-    margin: 0px 10px;
+    margin: 0px -800px;
     padding: 0px;
     display: flex;
-    color: darkred;
+    color: whitesmoke;
 }
 
  header nav ul li {
         margin: 0 15px;
-        color: red;
+        color: whitesmoke;
         font-size:25px;
  }
 
 header nav ul li a {
-    color: red;
+    color: whitesmoke;
+    margin: 0px 90px;
     text-decoration: none;
     font-weight: 700;
     transition: color 0.3s;
+    font-size: 35px
 }
 
 header nav ul li a:hover {
@@ -96,7 +103,7 @@ header nav ul li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 0;
 }
 
@@ -130,7 +137,7 @@ header nav ul li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 0;
 
 }
@@ -185,11 +192,11 @@ section {
 #contact {
     background-image: url(img/FundoEscuro.png);
     background-size: 30px 30px;
-    margin: 20px 500px;
+    margin: 20px 10px;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    color: red;
+    color: whitesmoke;
     font-size: 20px;
     align-self:center;
     align-content:center;
@@ -203,14 +210,14 @@ section {
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    color: red;
+    color: whitesmoke;
     font-size: 30px;
     text-align: center;
 }
 
 #Valores ul li {
     list-style-type:none;
-    text-decoration:underline dashed;
+    text-decoration:underline;
 
 }
 
@@ -235,8 +242,8 @@ section {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    color:red;
-    align-items:center;
+    color: whitesmoke;
+    align-items: center;
 }
 
 #games .game {
@@ -250,8 +257,8 @@ section {
 }
 
 #games {
-    color:red;
-    align-self:flex-start;
+    color: whitesmoke;
+    align-self: flex-start;
     text-align: center;
 }
 
@@ -263,13 +270,13 @@ section {
 #games .game h3 {
     margin: 15px 0;
     font-size: 20px;
-    color: goldenrod;
+    color: white;
 }
 
 #games h2 {
     margin: 15px 0;
     font-size: 40px;
-    color:red;
+    color:whitesmoke;
     background-image: url(img/FundoEscuro.png);
     background-size: 50px 50px;
 }
@@ -279,7 +286,7 @@ section {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    color:red;
+    color:whitesmoke;
     align-items:center;
 }
 
@@ -291,11 +298,11 @@ section {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     flex-basis: 30%;
     text-align: center;
-    color: darkgoldenrod;
+    color: whitesmoke;
 }
 
 #integrantes {
-    color:red;
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -307,29 +314,29 @@ section {
 #integrantes .dev h3 {
     margin: 15px 0;
     font-size: 20px;
-    color: red;
+    color: whitesmoke;
 }
 
 #integrantes .dev h2 {
     margin: 15px 0;
     font-size: 30px;
-    color: red;
+    color: whitesmoke;
 }
 
 #integrantes h2 {
     margin: 15px 0;
     font-size: 40px;
-    color:red;
+    color:whitesmoke;
     background-image: url(img/FundoEscuro.png);
     background-size: 50px 50px;
 }
 
 #integrantes .Fotos {
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
     justify-content: center;
-    color: red;
+    color: whitesmoke;
     align-items: center;
 }
 
@@ -339,9 +346,13 @@ section {
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    flex-basis: 30%;
+    flex-basis: 40%;
     text-align: center;
-    color: red;
+    color: whitesmoke;
+}
+
+#integrantes .dev h2 {
+    font-size: 27px;
 }
 
 
@@ -363,17 +374,17 @@ form label {
         border: 1px solid #ccc;
         border-radius: 5px;
         font-size: 16px;
-        color: red;
+        color: whitesmoke;
         background-color: #330169;
     }
 
-form button {
-    background: red;
-    color: black;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
-}
+    form button {
+        background: whitesmoke;
+        color: black;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
 
 form button:hover {
     background: darkred;
@@ -383,7 +394,7 @@ footer {
     background-image: url(img/FundoEscuro.png);
     background-size: 100px 100px;
     background-position: center;
-    color: red;
+    color: whitesmoke;
     text-align: center;
     padding: 20px 0;
     position: center;
