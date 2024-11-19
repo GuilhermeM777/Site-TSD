@@ -24,7 +24,7 @@ header {
     margin: 0px;
     position: fixed;
     width: 100%;
-    top: 0px;
+    top: -10px;
     z-index: 1000;
 }
 
@@ -180,19 +180,20 @@ section {
 #about, #Missao, #Visao {
     background-image: url(img/FundoEscuro.png);
     background-size: 30px 30px;
-    margin: 20px 100px;
+    margin: 20px 350px;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     color: whitesmoke;
     font-size: 20px;
     text-align: center;
+    justify-content:center;
 }
 
 #contact {
     background-image: url(img/FundoEscuro.png);
     background-size: 30px 30px;
-    margin: 20px 10px;
+    margin: 20px 350px;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -206,7 +207,7 @@ section {
 #Valores {
     background-image: url(img/FundoEscuro.png);
     background-size: 30px 30px;
-    margin: 20px 100px;
+    margin: 20px 350px;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
